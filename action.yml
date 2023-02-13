@@ -21,7 +21,9 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
-    - run: cp goodbye.sh /opt
+    - run: pwd
+      shell: bash
+    - run: cp ./goodbye.sh /opt
       shell: bash
 
 
