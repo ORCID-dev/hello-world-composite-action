@@ -23,7 +23,7 @@ runs:
       shell: bash
     - run: pwd
       shell: bash
-    - run: cp "$GITHUB_PATH/goodbye.sh" /opt
+    - run: cp "$GITHUB_PATH/goodbye.sh" /opt/
       shell: bash
 
 
