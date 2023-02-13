@@ -21,9 +21,9 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
-    - run: pwd
+    - run: ls -la "${{ github.action_path }}"
       shell: bash
-    - run: cp "$GITHUB_PATH/goodbye.sh" /opt/
+    - run: cp "${{ github.action_path }}/goodbye.sh" /opt/
       shell: bash
 
 
